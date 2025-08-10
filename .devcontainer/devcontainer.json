@@ -1,0 +1,17 @@
+{
+  "name": "Python + Protobuf (Ubuntu)",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "workspaceFolder": "/workspaces/protocol-buffers-example",
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
